@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 body{
     margin: 0;
     background-color: rgb(108, 216, 216);
@@ -25,7 +28,7 @@ ul li{
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; 
     text-decoration: none;
 }
 li:hover{
@@ -56,9 +59,13 @@ a{
     color: aliceblue;
 }
 
-#ker{
+.ker{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 25%;
+}
+.kerovi{
+    display: flex;
+    justify-content: center;
 }
