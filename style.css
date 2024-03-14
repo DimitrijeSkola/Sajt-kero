@@ -78,13 +78,13 @@ a{
     justify-content: center;
     padding: 10px;
 }
-.dropbtn {
+/*.dropbtn {
     background-color: #04AA6D;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
+  }*/
 .dropdown {
     color: var(--a-color);
     position: relative;
@@ -95,8 +95,9 @@ a{
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  width: 200px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  height: 225px;
+  width: 195px;
+  box-shadow: 0px 8px 16px 0px rgba(216, 126, 126, 0.2);
   z-index: 1;
   top: 75px;/*Udaljenost od vrha stranice*/
 }
@@ -104,7 +105,7 @@ ul li{
     position: relative;
 }
 
-.dropdown-content a:hover {background-color: #ee4c4c;}
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -120,9 +121,7 @@ ul li{
 }
 
 /* Change the background color of the dropdown button when the dropdown content is shown */
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
+
 .dropdown a{
     width: 100%;
 }
@@ -136,4 +135,7 @@ h1, h2{
 }
 hr{
     margin: 10px;
+}
+.treciKerovi{
+    width: 100%;
 }
